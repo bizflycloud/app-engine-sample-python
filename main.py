@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.get("/")
 def index():
-    return "hello, world"
+    return "This is your first Python app run on App Engine Bizfly Cloud!"
 
 
 if __name__ == "__main__":
